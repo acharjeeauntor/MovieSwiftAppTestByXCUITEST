@@ -11,4 +11,5 @@ import Foundation
 enum MovieScreenData:String{
     case movieName = "Avatar"
     case firstScreenLabelText = "Now Playing"
+    case avatarMovieTitle = "Avatar: The Way of Water"
 }

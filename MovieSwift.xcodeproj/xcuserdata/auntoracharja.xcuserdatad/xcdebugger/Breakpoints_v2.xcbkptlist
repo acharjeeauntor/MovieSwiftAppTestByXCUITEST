@@ -14,8 +14,8 @@
             filePath = "MovieSwiftUITests/Screens/NowPlayingMoviesScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "searchMovie(movieName:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,9 +30,9 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "testSearchMovie()"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "test2_SearchMovie()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

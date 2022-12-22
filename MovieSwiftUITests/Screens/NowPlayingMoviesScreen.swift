@@ -10,6 +10,7 @@ class NowPlayingMoviesScreen:BaseTest{
     enum NowPlayingMoviesScreen:String{
            case searchPlaceholderText = "Search any movies or person"
            case nowPlayingMoviesScreenLabelText = "Now Playing"
+        case avatarMovieNameText = "Avatar: The Way of Water"
        }
     
     
@@ -29,6 +30,12 @@ class NowPlayingMoviesScreen:BaseTest{
     }
     func getNowPlayingMoviesScreenLabel() -> String{
         return app.staticTexts[NowPlayingMoviesScreen.nowPlayingMoviesScreenLabelText.rawValue].label
+    }
+    func getLabelOfAvatarMovie() -> String{
+        return app.staticTexts[NowPlayingMoviesScreen.avatarMovieNameText.rawValue].firstMatch.label
+    }
+    func getAvatarMovieTitelLocator() -> XCUIElement{
+        return app.staticTexts[NowPlayingMoviesScreen.avatarMovieNameText.rawValue]
     }
     
     

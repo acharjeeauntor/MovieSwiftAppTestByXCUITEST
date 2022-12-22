@@ -13,20 +13,23 @@ class MoviesTest:BaseTest{
     let common = Common()
     let movieName = MovieScreenData.movieName.rawValue
     let firstScreenLabel = MovieScreenData.firstScreenLabelText.rawValue
+    let avatarMovieTitleText = MovieScreenData.avatarMovieTitle.rawValue
     
-    func testSearchMovie(){
+    func test1_ScreenLabel(){
+        XCTAssert(nowPlayingMoviesScreen.getNowPlayingMoviesScreenLocator().exists,"Screen Label Doesn't Exist")
+        //print(`My Value::::::::: \(nowPlayingMoviesScreen.getNowPlayingMoviesScreenLabel())`)
+        XCTAssertEqual(nowPlayingMoviesScreen.getNowPlayingMoviesScreenLabel(),firstScreenLabel)
+    }
+    func test2_SearchMovie(){
         nowPlayingMoviesScreen.searchMovie(movieName:movieName )
         XCTAssertEqual(nowPlayingMoviesScreen.getSearchFieldValue(),movieName,"Text field value is not correct")
     }
     
-    func testScrollInMovieList(){
+    func test3_ScrollInMovieList(){
         common.swipeUPDOWN()
-    }
-    
-    func testScreenLabel(){
-        XCTAssert(nowPlayingMoviesScreen.getNowPlayingMoviesScreenLocator().exists,"Screen Label Doesn't Exist")
-        //print(`My Value::::::::: \(nowPlayingMoviesScreen.getNowPlayingMoviesScreenLabel())`)
-        XCTAssertEqual(nowPlayingMoviesScreen.getNowPlayingMoviesScreenLabel(),firstScreenLabel)
+        let labelOfAvatarMovie = nowPlayingMoviesScreen.getLabelOfAvatarMovie()
+        XCTAssertNotNil(labelOfAvatarMovie.range(of:avatarMovieTitleText))
+        XCTAssert(nowPlayingMoviesScreen.getAvatarMovieTitelLocator().exists)
     }
     
 }
