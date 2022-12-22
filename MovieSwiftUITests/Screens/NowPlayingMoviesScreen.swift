@@ -9,10 +9,7 @@ import XCTest
 class NowPlayingMoviesScreen:BaseTest{
     enum NowPlayingMoviesScreen:String{
            case searchPlaceholderText = "Search any movies or person"
-           case cityInputFieldId = "city"
-           case enrollBtnId = "enrollButton"
-           case errorMsgLabel = "Please Enter City"
-           case successMsgLabel = "Thanks for Joining!"
+           case nowPlayingMoviesScreenLabelText = "Now Playing"
        }
     
     
@@ -22,7 +19,17 @@ class NowPlayingMoviesScreen:BaseTest{
         searchInputField.typeText(movieName)
     }
     
+    func getSearchFieldValue() -> String{
+        let searchInputField = app.collectionViews.collectionViews.textFields[NowPlayingMoviesScreen.searchPlaceholderText.rawValue]
+        return searchInputField.value as! String
+    }
     
+    func getNowPlayingMoviesScreenLocator() -> XCUIElement{
+        return app.staticTexts[NowPlayingMoviesScreen.nowPlayingMoviesScreenLabelText.rawValue]
+    }
+    func getNowPlayingMoviesScreenLabel() -> String{
+        return app.staticTexts[NowPlayingMoviesScreen.nowPlayingMoviesScreenLabelText.rawValue].label
+    }
     
     
     
