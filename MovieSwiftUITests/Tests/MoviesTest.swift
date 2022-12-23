@@ -10,6 +10,8 @@ import XCTest
 
 class MoviesTest:BaseTest{
     let nowPlayingMoviesScreen = NowPlayingMoviesScreen()
+    let movieScreenHeader = MovieScreenHeader()
+    let settingsScreen = SettingsScreen()
     let common = Common()
     let movieName = MovieScreenData.movieName.rawValue
     let firstScreenLabel = MovieScreenData.firstScreenLabelText.rawValue
@@ -30,6 +32,12 @@ class MoviesTest:BaseTest{
         let labelOfAvatarMovie = nowPlayingMoviesScreen.getLabelOfAvatarMovie()
         XCTAssertNotNil(labelOfAvatarMovie.range(of:avatarMovieTitleText))
         XCTAssert(nowPlayingMoviesScreen.getAvatarMovieTitelLocator().exists)
+    }
+    
+    func test4_CheckSettingsBtn(){
+        movieScreenHeader.clickOnSettings()
+        print(settingsScreen.isSettingsTextExist())
+        XCTAssertTrue(settingsScreen.isSettingsTextExist(),"Settings text is not showing")
     }
     
 }
