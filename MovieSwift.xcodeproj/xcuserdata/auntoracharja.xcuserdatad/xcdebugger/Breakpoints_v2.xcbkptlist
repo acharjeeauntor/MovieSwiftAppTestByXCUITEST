@@ -30,10 +30,10 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "test2_SearchMovie()"
-            landmarkType = "7">
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "MoviesTest"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -46,10 +46,10 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "test4_CheckSettingsBtn()"
-            landmarkType = "7">
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "MoviesTest"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -62,9 +62,249 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "test4_CheckSettingsBtn()"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "MoviesTest"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D5606A9-E68E-4B9D-8362-A31968B1174E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Screens/SettingsScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "isSettingsTextExist()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADBE6643-23A3-414D-8D52-1DF3079FD5C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "MoviesTest"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "417F08D7-560A-48F8-9908-FF293E15A6D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/BottomTabTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testcase2_TabDiscover()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05A67CC2-B5D5-4639-A0C9-CD5470E2FD60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/BottomTabTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "testcase2_TabDiscover()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "203DC9A1-FCF9-465E-B608-1CA17353F7E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/BottomTabTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "testcase3_TabFanClub()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "203DC9A1-FCF9-465E-B608-1CA17353F7E6 - df6272877f78b112"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSwiftUITests.BottomTabTest.testcase3_TabFanClub() -&gt; ()"
+                  moduleName = "MovieSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auntoracharja/Work/SQA/Automation/XCUITEST/MovieSwift/MovieSwiftUITests/Tests/BottomTabTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "203DC9A1-FCF9-465E-B608-1CA17353F7E6 - df6272877f78b096"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSwiftUITests.BottomTabTest.testcase3_TabFanClub() -&gt; ()"
+                  moduleName = "MovieSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auntoracharja/Work/SQA/Automation/XCUITEST/MovieSwift/MovieSwiftUITests/Tests/BottomTabTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3144030-E16B-4E69-BAC7-E0E135B66505"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/BottomTabTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testcase4_TabMyLists()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3144030-E16B-4E69-BAC7-E0E135B66505 - 93e6d8af432b3c1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSwiftUITests.BottomTabTest.testcase4_TabMyLists() -&gt; ()"
+                  moduleName = "MovieSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auntoracharja/Work/SQA/Automation/XCUITEST/MovieSwift/MovieSwiftUITests/Tests/BottomTabTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "F3144030-E16B-4E69-BAC7-E0E135B66505 - 93e6d8af432b3c99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSwiftUITests.BottomTabTest.testcase4_TabMyLists() -&gt; ()"
+                  moduleName = "MovieSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auntoracharja/Work/SQA/Automation/XCUITEST/MovieSwift/MovieSwiftUITests/Tests/BottomTabTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "380F0405-6608-40EF-9A08-81E6250EF64A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "test6_NowPlayingScreenLabel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "380F0405-6608-40EF-9A08-81E6250EF64A - 25de66ffc4e3db3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSwiftUITests.MoviesTest.test6_NowPlayingScreenLabel() -&gt; ()"
+                  moduleName = "MovieSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auntoracharja/Work/SQA/Automation/XCUITEST/MovieSwift/MovieSwiftUITests/Tests/MoviesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "380F0405-6608-40EF-9A08-81E6250EF64A - 25de66ffc4e3db3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieSwiftUITests.MoviesTest.test6_NowPlayingScreenLabel() -&gt; ()"
+                  moduleName = "MovieSwiftUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auntoracharja/Work/SQA/Automation/XCUITEST/MovieSwift/MovieSwiftUITests/Tests/MoviesTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5273FF4D-A3DB-45F5-9690-90C6B5634D68"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "test7_SearchPlaceholder()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AADD475A-5D69-424B-A875-2F1842C9725D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "test6_NowPlayingScreenLabel()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

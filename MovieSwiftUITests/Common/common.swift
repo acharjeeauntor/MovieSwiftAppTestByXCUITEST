@@ -13,4 +13,19 @@ class Common:BaseTest{
         app.swipeUp()
         app.swipeDown()
     }
+    
+    func swipeLeftFiveTime(){
+        app.swipeLeft()
+        app.swipeLeft()
+        app.swipeLeft()
+        app.swipeLeft()
+        app.swipeLeft()
+    }
+    func swipeRightFiveTime(){
+        app.swipeRight()
+        app.swipeRight()
+        app.swipeRight()
+        app.swipeRight()
+        app.swipeRight()
+    }
 }
