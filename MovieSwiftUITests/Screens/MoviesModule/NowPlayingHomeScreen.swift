@@ -7,31 +7,23 @@
 import XCTest
 
 class NowPlayingHomeScreen:BaseTest{
-          public var searchPlaceholder = "Search any movies or person"
-          public var nowPlayingLabel = "Now Playing"
-        public var avatarMovieNameText = "Avatar: The Way of Water"
     
-    func searchMovie(movieName:String){
-        let searchInputField = app.textFields[searchPlaceholder]
-        searchInputField.tap()
-        searchInputField.typeText(movieName)
-    }
-
-    func getSearchFieldValue() -> String{
-        let searchInputField = app.textFields[searchPlaceholder]
-        return searchInputField.value as! String
-    }
+    public var nowPlayingLabel = "Now Playing"
+    public var avatarMovieNameText = "Avatar: The Way of Water"
+    
+    
     
     func isNowPlayingTextExist() -> Bool{
+        let nowPlayingStaticTextElement = app.staticTexts[nowPlayingLabel]
+        nowPlayingStaticTextElement.waitForExistence(timeout: 5)
         return app.staticTexts[nowPlayingLabel].exists
     }
     
-    func isSearchBoxPlaceholderExist() -> Bool{
-        return app.textFields[searchPlaceholder].exists
-    }
-//    func getNowPlayingMoviesScreenLabel() -> String{
-//        return app.staticTexts[NowPlayingMoviesScreen.nowPlayingMoviesScreenLabelText.rawValue].label
-//    }
+    
+    //    func getNowPlayingMoviesScreenLabel() -> String{
+    //        return app.staticTexts[NowPlayingMoviesScreen.nowPlayingMoviesScreenLabelText.rawValue].label
+    //    }
+    
     func getLabelOfAvatarMovie() -> String{
         return app.staticTexts[avatarMovieNameText].firstMatch.label
     }

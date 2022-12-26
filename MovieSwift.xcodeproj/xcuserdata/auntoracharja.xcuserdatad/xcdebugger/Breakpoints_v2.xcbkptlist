@@ -30,40 +30,8 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "MoviesTest"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2E695C91-7E14-45DB-8229-B3392D3C026F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "MoviesTest"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D2373A68-D55D-4173-8BDB-3CE26A2EF1B1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "MoviesTest"
             landmarkType = "3">
          </BreakpointContent>
@@ -94,8 +62,8 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "MoviesTest"
             landmarkType = "3">
          </BreakpointContent>
@@ -136,7 +104,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "203DC9A1-FCF9-465E-B608-1CA17353F7E6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieSwiftUITests/Tests/BottomTabTest.swift"
@@ -184,7 +152,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F3144030-E16B-4E69-BAC7-E0E135B66505"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieSwiftUITests/Tests/BottomTabTest.swift"
@@ -238,8 +206,8 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "test6_NowPlayingScreenLabel()"
             landmarkType = "7">
             <Locations>
@@ -286,9 +254,9 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "test7_SearchPlaceholder()"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "test7_NowPlayingScreenSearchPlaceholder()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -302,8 +270,8 @@
             filePath = "MovieSwiftUITests/Tests/MoviesTest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "test6_NowPlayingScreenLabel()"
             landmarkType = "7">
          </BreakpointContent>
