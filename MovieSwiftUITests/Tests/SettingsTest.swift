@@ -28,11 +28,30 @@ class SettingsTest:BaseTest{
         XCTAssert(nowPlayingHomeScreen.isNowPlayingTextExist(),"Now Playing Screen Label Doesn't Exist")
     }
     
-    //TCTC69: Verify Settings screen removed properly or not after clicking on Save button from settings screen
+    //TC69: Verify Settings screen removed properly or not after clicking on Save button from settings screen
     func test69_TapSave(){
         movieScreenHeader.clickOnSettingsIcon()
         settingsScreen.tapSaveBtn()
         XCTAssert(nowPlayingHomeScreen.isNowPlayingTextExist(),"Now Playing Screen Label Doesn't Exist")
+    }
+    
+    
+    //TC70: Verify "Always show original title" toggle button working properly or not
+    func test70_AlwaysShowOriginalTitleToggleBtn(){
+        movieScreenHeader.clickOnSettingsIcon()
+        settingsScreen.toggleAlwaysShowOriginalTitleSwitch()
+//        if let num:Int = Int(settingsScreen.getAlwaysShowOriginalTitleSwitchValue(),radix:10){
+//
+//        }
+        XCTAssertEqual(settingsScreen.getAlwaysShowOriginalTitleSwitchValue() as! String,"1")
+        settingsScreen.toggleAlwaysShowOriginalTitleSwitch()
+        XCTAssertEqual(settingsScreen.getAlwaysShowOriginalTitleSwitchValue() as! String,"0")
+    }
+    
+    //TC71: Verify Region selection working properly or not
+    func test71_Regionselection(){
+
+
     }
     
 }

@@ -10,6 +10,7 @@ class SettingsScreen:BaseTest{
     public var settingsText = "Settings"
     public var saveBtnLabel = "Save"
     public var cancelBtnLabel = "Cancel"
+    public var alwaysShowOriginalTitleSwitchLabel = "Always show original title"
  
     func isSettingsTextExist()->Bool{
         let settingsStaticTextElement:XCUIElement = app.staticTexts[settingsText]
@@ -25,6 +26,16 @@ class SettingsScreen:BaseTest{
         app.buttons[saveBtnLabel].firstMatch.tap()
     }
     
+    func toggleAlwaysShowOriginalTitleSwitch(){
+        let alwaysShowOriginalTitleSwitchElement:XCUIElement = app.collectionViews.switches[alwaysShowOriginalTitleSwitchLabel]
+        alwaysShowOriginalTitleSwitchElement.tap()
+        app.wait(for: XCUIApplication.State.unknown, timeout: 5)
+    }
+    
+    func getAlwaysShowOriginalTitleSwitchValue() -> Any {
+        let alwaysShowOriginalTitleSwitchElement:XCUIElement = app.collectionViews.switches[alwaysShowOriginalTitleSwitchLabel]
+        return alwaysShowOriginalTitleSwitchElement.value as Any
+    }
     
     
 }

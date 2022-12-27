@@ -286,8 +286,8 @@
             filePath = "MovieSwiftUITests/Screens/MoviesModule/SettingsScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
             landmarkName = "isSettingsTextExist()"
             landmarkType = "7">
          </BreakpointContent>
