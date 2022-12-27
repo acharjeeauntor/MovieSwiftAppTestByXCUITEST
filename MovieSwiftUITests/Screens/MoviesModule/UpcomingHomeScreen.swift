@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import XCTest
 
 class UpcomingHomeScreen:BaseTest{
     public var upcomingLabel = "Upcoming"
     
     func isUpcomingTextExist()->Bool{
-        let upcomingStaticTextElement = app.staticTexts[upcomingLabel]
+        let upcomingStaticTextElement:XCUIElement = app.staticTexts[upcomingLabel]
         upcomingStaticTextElement.waitForExistence(timeout: 5)
-        return app.staticTexts[upcomingLabel].exists
+        return upcomingStaticTextElement.exists
     }
 }

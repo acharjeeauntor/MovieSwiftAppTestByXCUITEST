@@ -7,12 +7,14 @@
 //
 
 import Foundation
+import XCTest
+
 class PopularHomeScreen:BaseTest{
     public var popularLabel = "Popular"
     
     func isPopularLabelTextExist()->Bool{
-        let popularStaticTextElement = app.staticTexts[popularLabel]
+        let popularStaticTextElement:XCUIElement = app.staticTexts[popularLabel]
         popularStaticTextElement.waitForExistence(timeout: 5)
-        return app.staticTexts[popularLabel].exists
+        return popularStaticTextElement.exists
     }
 }

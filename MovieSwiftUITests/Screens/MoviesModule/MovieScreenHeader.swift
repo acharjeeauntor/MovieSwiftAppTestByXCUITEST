@@ -7,12 +7,11 @@
 import XCTest
 
 class MovieScreenHeader:BaseTest{
-    enum MovieScreenHeaderIdentifier:String{
-           case settingsIconLabelText = "Wrench"
-       }
+    public var settingsIconLabelText = "Wrench"
+     
     
-    func clickOnSettings(){
-        app.buttons[MovieScreenHeaderIdentifier.settingsIconLabelText.rawValue].tap()
+    func clickOnSettingsIcon(){
+        app.buttons[settingsIconLabelText].tap()
     }
     
     

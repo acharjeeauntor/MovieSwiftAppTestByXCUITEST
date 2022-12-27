@@ -14,9 +14,9 @@ class NowPlayingHomeScreen:BaseTest{
     
     
     func isNowPlayingTextExist() -> Bool{
-        let nowPlayingStaticTextElement = app.staticTexts[nowPlayingLabel]
+        let nowPlayingStaticTextElement:XCUIElement = app.staticTexts[nowPlayingLabel]
         nowPlayingStaticTextElement.waitForExistence(timeout: 5)
-        return app.staticTexts[nowPlayingLabel].exists
+        return nowPlayingStaticTextElement.exists
     }
     
     

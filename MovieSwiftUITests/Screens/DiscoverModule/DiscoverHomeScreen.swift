@@ -13,10 +13,10 @@ class DiscoverHomeScreen:BaseTest{
 public var randomBtnLabel = " · Random"
     
     func isRandomButtonExist()->Bool{
-        let randomBtnLocator:XCUIElement = app.buttons[randomBtnLabel]
+        let randomBtnElement:XCUIElement = app.buttons[randomBtnLabel]
         //app.wait(for: XCUIApplication.State.unknown, timeout: 5)
-        randomBtnLocator.waitForExistence(timeout: 10)
-        return randomBtnLocator.exists
+        randomBtnElement.waitForExistence(timeout: 10)
+        return randomBtnElement.exists
     }
     
     

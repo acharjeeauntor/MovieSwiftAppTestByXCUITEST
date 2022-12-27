@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import XCTest
 
 class TrendingHomeScreen:BaseTest{
     public var trendingLabel = "Trending"
     
     func isTrendingTextExist()->Bool{
-        let trendingStaticTextElement = app.staticTexts[trendingLabel]
+        let trendingStaticTextElement:XCUIElement = app.staticTexts[trendingLabel]
         trendingStaticTextElement.waitForExistence(timeout: 5)
-        return app.staticTexts[trendingLabel].exists
+        return trendingStaticTextElement.exists
     }
 }

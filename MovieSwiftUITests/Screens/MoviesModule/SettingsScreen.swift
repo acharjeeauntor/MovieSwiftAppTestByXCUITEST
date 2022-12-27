@@ -7,12 +7,22 @@
 import XCTest
 
 class SettingsScreen:BaseTest{
-    enum SettingsScreenIdentifier:String{
-           case settingsText = "Settings"
-       }
-    
+    public var settingsText = "Settings"
+    public var saveBtnLabel = "Save"
+    public var cancelBtnLabel = "Cancel"
+ 
     func isSettingsTextExist()->Bool{
-        return app.staticTexts[SettingsScreenIdentifier.settingsText.rawValue].isHittable
+        let settingsStaticTextElement:XCUIElement = app.staticTexts[settingsText]
+        settingsStaticTextElement.waitForExistence(timeout: 5)
+        return settingsStaticTextElement.exists
+    }
+    
+    func tapCancelBtn(){
+        app.buttons[cancelBtnLabel].firstMatch.tap()
+    }
+    
+    func tapSaveBtn(){
+        app.buttons[saveBtnLabel].firstMatch.tap()
     }
     
     

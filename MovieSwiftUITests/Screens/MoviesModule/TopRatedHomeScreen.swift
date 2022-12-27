@@ -7,12 +7,14 @@
 //
 
 import Foundation
+import XCTest
+
 class TopRatedHomeScreen:BaseTest{
     public var topRatedLabel = "Top Rated"
     
     func isTopRatedScreenLabelTextExist()->Bool{
-        let topRatedStaticTextElement = app.staticTexts[topRatedLabel]
+        let topRatedStaticTextElement:XCUIElement = app.staticTexts[topRatedLabel]
         topRatedStaticTextElement.waitForExistence(timeout: 5)
-        return app.staticTexts[topRatedLabel].exists
+        return topRatedStaticTextElement.exists
     }
 }
