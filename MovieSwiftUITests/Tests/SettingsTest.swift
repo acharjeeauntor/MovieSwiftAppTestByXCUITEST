@@ -15,6 +15,11 @@ class SettingsTest:BaseTest{
     let nowPlayingHomeScreen = NowPlayingHomeScreen()
     
     
+    // Settings Screen Data
+    let countryName = SettingsScreenData.countryName.rawValue
+    let defaultCountryName = SettingsScreenData.defaultCountryName.rawValue
+    
+    
     //TC67: Verify Settings screen shown properly or not after clicking on Settings Icon from Any movies screen
     func test67_SeetingsLabel(){
         movieScreenHeader.clickOnSettingsIcon()
@@ -40,9 +45,6 @@ class SettingsTest:BaseTest{
     func test70_AlwaysShowOriginalTitleToggleBtn(){
         movieScreenHeader.clickOnSettingsIcon()
         settingsScreen.toggleAlwaysShowOriginalTitleSwitch()
-//        if let num:Int = Int(settingsScreen.getAlwaysShowOriginalTitleSwitchValue(),radix:10){
-//
-//        }
         XCTAssertEqual(settingsScreen.getAlwaysShowOriginalTitleSwitchValue() as! String,"1")
         settingsScreen.toggleAlwaysShowOriginalTitleSwitch()
         XCTAssertEqual(settingsScreen.getAlwaysShowOriginalTitleSwitchValue() as! String,"0")
@@ -50,8 +52,37 @@ class SettingsTest:BaseTest{
     
     //TC71: Verify Region selection working properly or not
     func test71_Regionselection(){
-
-
+        movieScreenHeader.clickOnSettingsIcon()
+        settingsScreen.tapRegion(countryName: countryName)
+        XCTAssertEqual(settingsScreen.getRegionCountryName(),countryName)
+    }
+    
+    // TC73: Verify updated settings info is showing properly or not after saving the settings.
+    func test72_updateSettings(){
+        movieScreenHeader.clickOnSettingsIcon()
+        
+        var currentStateOfToggle:String=""
+        let toggleValue = settingsScreen.getAlwaysShowOriginalTitleSwitchValue() as! String
+        if(toggleValue == "1"){
+            currentStateOfToggle = "Enable"
+        }else if (toggleValue == "0"){
+            currentStateOfToggle = "Disable"
+        }
+        
+        settingsScreen.toggleAlwaysShowOriginalTitleSwitch()
+        settingsScreen.tapRegion(countryName: countryName)
+        settingsScreen.tapSaveBtn()
+        
+        //Assertion Step
+        movieScreenHeader.clickOnSettingsIcon()
+        if(currentStateOfToggle == "Enable"){
+            XCTAssertEqual(settingsScreen.getAlwaysShowOriginalTitleSwitchValue() as! String,"0")
+            XCTAssertEqual(settingsScreen.getRegionCountryName(),defaultCountryName)
+        }else if (currentStateOfToggle == "Disable"){
+            XCTAssertEqual(settingsScreen.getAlwaysShowOriginalTitleSwitchValue() as! String,"1")
+            XCTAssertEqual(settingsScreen.getRegionCountryName(),countryName)
+        }
+        
     }
     
 }

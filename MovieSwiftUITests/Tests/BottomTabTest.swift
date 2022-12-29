@@ -30,7 +30,7 @@ class BottomTabTest:BaseTest{
     //TC2: Verify Discover tab is working properly or not
     func test2_TabDiscover(){
         bottomTabBar.clickDiscoverTab()
-       XCTAssertTrue(discoverHomeScreen.isRandomButtonExist(),"Random Button Doesn't Exist")
+        XCTAssertTrue(discoverHomeScreen.isRandomButtonExist(),"Random Button Doesn't Exist")
     }
     
     //TC3: Verify Fan Club tab is working properly or not
